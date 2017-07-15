@@ -28,7 +28,9 @@ RUN \
 	python3-dev \
 	swig \
 	tar \
+	python3 \
 	tcl-dev && \
+	pip3 install requests
 
 # fetch and unpack source
  mkdir -p \
