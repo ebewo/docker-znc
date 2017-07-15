@@ -30,7 +30,7 @@ RUN \
 	tar \
 	python3 \
 	tcl-dev && \
-	pip3 install requests
+	pip3 install requests && \
 
 # fetch and unpack source
  mkdir -p \
