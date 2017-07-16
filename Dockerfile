@@ -31,6 +31,7 @@ RUN \
 	tcl-dev && \
  apk --no-cache add python3 && \
  pip3 install requests && \
+#added python install to end
 
 # fetch and unpack source
  mkdir -p \
